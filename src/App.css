@@ -1,0 +1,56 @@
+body {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    gap: 16px;
+}
+.params-editor {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.params-editor__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.params-editor__item span {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Montserrat, serif;
+}
+.params-editor__item input {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Montserrat, serif;
+    width: 50%;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.params-editor button {
+    background: #319795;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat, serif;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.params-editor button:hover {
+    background: #2c7a7b;
+}
+.params-editor button:active {
+    background: #285e61;
+}
