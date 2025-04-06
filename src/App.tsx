@@ -1,6 +1,5 @@
 import React, {FC} from 'react';
 import './App.css';
-import {json} from "node:stream/consumers";
 
 interface Param {
     id: number;
