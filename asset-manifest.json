@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Model-Param-Editor/static/css/main.db7eddde.css",
+    "main.js": "/Model-Param-Editor/static/js/main.84d10def.js",
+    "index.html": "/Model-Param-Editor/index.html",
+    "main.db7eddde.css.map": "/Model-Param-Editor/static/css/main.db7eddde.css.map",
+    "main.84d10def.js.map": "/Model-Param-Editor/static/js/main.84d10def.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db7eddde.css",
+    "static/js/main.84d10def.js"
+  ]
+}
